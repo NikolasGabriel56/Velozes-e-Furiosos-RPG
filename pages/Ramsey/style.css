@@ -100,18 +100,14 @@ html {
     color: rgb(255, 255, 255);
 }
 .call-to-action{
-    cursor: pointer;
-    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
     border: 0;
     padding: 14px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
     transition: 0.9s;
-    position: absolute; 
-    bottom: 50px; 
-    left: 10px; 
-
 }
 .call-to-action:hover{
     transform: scale(1.1);

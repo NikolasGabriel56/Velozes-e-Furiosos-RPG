@@ -17,12 +17,12 @@ html {
     width: 100%;
     background-color: #000;
     height: calc(100vh);
-    background-image: url("Mia.jpg");
+    background-image: url("MiaCapa.jpg");
     background-size: Cover;
     background-position: top center;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
     padding-left: 10px;
     margin-left: 0;
 }
@@ -31,12 +31,12 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .main div h1 {
     margin-top: 20px;
-    color: rgb(14, 14, 14);
+    color: rgb(250, 244, 244);
     font-size: 54px;
     margin-left: 20px;
     margin-right: 20px;
@@ -48,7 +48,7 @@ html {
     font-weight: 900;
     font-size: clamp(16px, 2vw, 24px);
     font-style: italic;
-    color: rgb(12, 12, 12);
+    color: rgb(251, 245, 245);
     margin-top: 10px;
     margin-bottom: 35px;
     margin-right: 10px;
@@ -99,20 +99,18 @@ html {
     color: rgb(255, 255, 255);
 }
 
-.call-to-action {
+.call-to-action{
     cursor: pointer;
-    background-color: #FFFFFF;
     border: 0;
     padding: 14px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
     transition: 0.9s;
-    position: absolute; 
-    bottom: 50px; 
-    left: 10px; 
+    position: relative; 
+    bottom: 0px; 
+    right: 0px;
 }
-
-.call-to-action:hover {
+.call-to-action:hover{
     transform: scale(1.1);
 }

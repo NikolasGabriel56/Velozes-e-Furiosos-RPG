@@ -105,19 +105,14 @@ html {
     }
 }
 .call-to-action{
-    cursor: pointer;
-    background-color: #000;
-    color: #ddd;
-    border: 0;
     padding: 14px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
     transition: 0.9s;
-    position: absolute; 
-    bottom: 50px; 
-    right: 10px; 
-
+    position: relative; 
+    bottom: 0px; 
+    right: 0px;
 }
 .call-to-action:hover{
     transform: scale(1.1);

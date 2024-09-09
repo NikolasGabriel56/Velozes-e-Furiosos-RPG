@@ -75,7 +75,7 @@ html {
 .atributos div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
 }
 
 .atributos h1 {
@@ -104,17 +104,15 @@ html {
 }
 .call-to-action{
     cursor: pointer;
-    background-color: #FFFFFF;
     border: 0;
     padding: 14px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
     transition: 0.9s;
-    position: absolute; 
-    bottom: 50px; 
-    right: 10px; 
-
+    position: relative; 
+    bottom: 0px; 
+    right: 20px;
 }
 .call-to-action:hover{
     transform: scale(1.1);
